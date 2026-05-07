@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Fetching…</title>
-  <meta http-equiv='refresh' content='0; URL=https://www.youtube.com/embed/spGSJaM2Cqg'>
+  <script>
+    window.location.replace(new URL(window.location.href).searchParams.get("url"))
+  </script>
 </head>
-<body>
-  <p>Fetching…</p>
+<body style="background: black">
+  <p style="align-self: center; vertical-align: center; color: whitesmoke">Fetching…</p>
 </body>
 </html>
